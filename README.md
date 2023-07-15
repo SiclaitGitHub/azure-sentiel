@@ -43,6 +43,10 @@ Azure Sentinel is a cloud-native security information and event management (SIEM
 
 Azure Sentinel collects and analyzes security event data from various sources, including logs from on-premises systems, cloud services, security devices, and third-party products. It uses advanced analytics, machine learning, and artificial intelligence capabilities to detect anomalies, identify threats, and provide intelligent security insights.
 
+SIEM stands for Security Information and Event Management. It refers to a category of software solutions and technologies that help organizations collect, analyze, and manage security event and log data from various sources across their network infrastructure.
+
+The primary purpose of SIEM is to provide organizations with a centralized platform for real-time monitoring, detection, and response to security incidents and threats. SIEM solutions collect data from a wide range of sources, including security devices (such as firewalls, intrusion detection systems, and antivirus software), servers, applications, and network infrastructure. This data is then aggregated, correlated, and analyzed to identify patterns, anomalies, and potential security breaches.
+
 
 </p>
 <br />
