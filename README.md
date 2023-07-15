@@ -28,6 +28,7 @@ This tutorial outlines the prerequisites and installation of Azure Senitel.<br /
 
 - Create Virtual Machine -VM1 (Azure)
 - Configure VM1's Firewall (Azure)
+- Connect VM1 to Microsoft Remote Desktop 
 - 
 - Item 4
 - Item 5
@@ -47,6 +48,18 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 </p>
 <br />
 
+<img width="602" alt="Screen Shot 2023-07-15 at 11 22 30 AM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/63021c1d-022d-4f60-972d-854648a0586e">
+
+2. Connect VM1 to Microsoft Remote Desktop
+
+SIEM stands for Security Information and Event Management. It refers to a category of software solutions and technologies that help organizations collect, analyze, and manage security event and log data from various sources across their network infrastructure.
+
+The primary purpose of SIEM is to provide organizations with a centralized platform for real-time monitoring, detection, and response to security incidents and threats. SIEM solutions collect data from a wide range of sources, including security devices (such as firewalls, intrusion detection systems, and antivirus software), servers, applications, and network infrastructure. This data is then aggregated, correlated, and analyzed to identify patterns, anomalies, and potential security breaches.
+
+ - Open Microsoft Remote Desktop on you local computer
+ - Enter the Public IP Address of VM1
+ - Enter log in credential created in Azure when setting up VM1
+ - 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 2. Install Azure Sentinel
