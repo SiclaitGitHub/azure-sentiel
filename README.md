@@ -24,22 +24,32 @@ This tutorial outlines the prerequisites and installation of Azure Senitel.<br /
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>High Level Steps</h2>
 
-- Item 1
-- Item 2
-- Item 3
+- Create Virtual Machine -VM1 (Azure)
+- Configure VM1's Firewall (Azure)
+- 
 - Item 4
 - Item 5
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<img width="908" alt="Screen Shot 2023-07-10 at 1 30 29 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/4f97a83e-1c37-4210-9dc1-8530cb7f91bf">
 
-1. Install Azure Sentinel
+
+1. Set up your Azure Virtual Machine
+
+Azure is a cloud computing platform and service offered by Microsoft. It provides a wide range of cloud services that enable organizations to build, deploy, and manage applications and services through Microsoft-managed data centers.
+
+A virtual machine (VM) on Microsoft Azure is a computing resource that uses software instead of a physical computer to run programs and deploy apps. Each VM instance can run its own operating system (OS), which means multiple VMs can run different operating systems on the same physical machine.
+
+Create a new Azure resource group, virtual network, subnet and virtual machine running Windows 10. Choose a VM size according to your needs. Once the VM is set up, you will need to connect to it using Remote Desktop. For this, you'll need the public IP address of the VM and the credentials you provided during the VM setup.
+</p>
+<br />
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+2. Install Azure Sentinel
    
 Azure Sentinel is a cloud-native security information and event management (SIEM) and security orchestration automated response (SOAR) solution provided by Microsoft. It is a part of the Microsoft Azure cloud platform and is designed to help organizations detect, investigate, and respond to security threats and incidents across their entire environment.
 
