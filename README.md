@@ -16,7 +16,8 @@ This tutorial outlines the prerequisites and installation of Azure Senitel.<br /
 
 - Microsoft Azure (Virtual Machines/Computer)
 - Microsoft Remote Desktop
-- Azure Sentinel
+- Azure Sentinel (Microsoft)
+- Log Analytics Workspace (Azure)
 
 <h2>Operating Systems Used </h2>
 
