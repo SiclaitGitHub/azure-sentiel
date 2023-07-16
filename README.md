@@ -5,7 +5,7 @@
 </p>
 
 <h1> Azure Sentinel Installation</h1>
-This tutorial outlines the prerequisites and installation of Azure Senitel.<br />
+This tutorial outlines the prerequisites and installation of Azure Sentinel.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -50,13 +50,13 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 
 <img width="1432" alt="Screen Shot 2023-07-16 at 12 36 27 PM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/c3cabe72-89ab-44b1-a50a-8a09e34b4ad0">
 
-2. Configure Firewall in "Network" Seetings when creating VM1 in Azure.
+2. Configure Firewall in "Network" Settings when creating VM1 in Azure.
 
-- Under the "netwroking" tab in the VM1 creation window
+- Under the "Networking" tab in the VM1 creation window
 - Select "Advanced" for the Network Security Group Option
 - Then Click "Create New"
-- Remove the defaul "Inbound Rule" then select "Add Inbound Rule"
-- Tyep "*" for the "Destination Port" option.
+- Remove the default "Inbound Rule" then select "Add Inbound Rule"
+- Type "*" for the "Destination Port" option.
 - Select "Any" for the "Protocol" 
 
 
@@ -68,9 +68,9 @@ SIEM stands for Security Information and Event Management. It refers to a catego
 
 The primary purpose of SIEM is to provide organizations with a centralized platform for real-time monitoring, detection, and response to security incidents and threats. SIEM solutions collect data from a wide range of sources, including security devices (such as firewalls, intrusion detection systems, and antivirus software), servers, applications, and network infrastructure. This data is then aggregated, correlated, and analyzed to identify patterns, anomalies, and potential security breaches.
 
- - Open Microsoft Remote Desktop on you local computer
+ - Open Microsoft Remote Desktop on your local computer
  - Enter the Public IP Address of VM1
- - Enter log in credentials created in Azure when setting up VM1
+ - Enter login credentials created in Azure when setting up VM1
  - Virtual Desktop should appear upon log in.
    
 
@@ -87,21 +87,5 @@ SIEM stands for Security Information and Event Management. It refers to a catego
 The primary purpose of SIEM is to provide organizations with a centralized platform for real-time monitoring, detection, and response to security incidents and threats. SIEM solutions collect data from a wide range of sources, including security devices (such as firewalls, intrusion detection systems, and antivirus software), servers, applications, and network infrastructure. This data is then aggregated, correlated, and analyzed to identify patterns, anomalies, and potential security breaches.
 
 
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
