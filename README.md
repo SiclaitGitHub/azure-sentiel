@@ -57,7 +57,7 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Then Click "Create New"
 - Remove the defaul "Inbound Rule" then select "Add Inbound Rule"
 - Tyep "*" for the "Destination Port" option.
-- Select "Any" 
+- Select "Any" for the "Protocol" 
 
 
 <img width="602" alt="Screen Shot 2023-07-15 at 11 22 30 AM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/63021c1d-022d-4f60-972d-854648a0586e">
