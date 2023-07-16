@@ -47,6 +47,19 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 </p>
 <br />
 
+
+<img width="1432" alt="Screen Shot 2023-07-16 at 12 36 27 PM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/c3cabe72-89ab-44b1-a50a-8a09e34b4ad0">
+
+2. Configure Firewall in "Network" Seetings when creating VM1 in Azure.
+
+- Under the "netwroking" tab in the VM1 creation window
+- Select "Advanced" for the Network Security Group Option
+- Then Click "Create New"
+- Remove the defaul "Inbound Rule" then select "Add Inbound Rule"
+- Tyep "*" for the "Destination Port" option.
+- Select "Any" 
+
+
 <img width="602" alt="Screen Shot 2023-07-15 at 11 22 30 AM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/63021c1d-022d-4f60-972d-854648a0586e">
 
 2. Connect VM1 to Microsoft Remote Desktop
