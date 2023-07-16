@@ -58,8 +58,11 @@ The primary purpose of SIEM is to provide organizations with a centralized platf
 
  - Open Microsoft Remote Desktop on you local computer
  - Enter the Public IP Address of VM1
- - Enter log in credential created in Azure when setting up VM1
- - 
+ - Enter log in credentials created in Azure when setting up VM1
+ - Virtual Desktop should appear up lof in.
+   
+
+   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 2. Install Azure Sentinel
