@@ -26,19 +26,18 @@ This tutorial outlines the prerequisites and installation of Azure Senitel.<br /
 
 <h2>High Level Steps</h2>
 
-- Create Virtual Machine -VM1 (Azure)
+- Create Virtual Machine - VM1 (Azure)
 - Configure VM1's Firewall (Azure)
 - Connect VM1 to Microsoft Remote Desktop 
 - 
-- Item 4
-- Item 5
+- 
 
 <h2>Installation Steps</h2>
 
 <img width="908" alt="Screen Shot 2023-07-10 at 1 30 29 PM" src="https://github.com/SiclaitGitHub/osticket-prereqs/assets/139138443/4f97a83e-1c37-4210-9dc1-8530cb7f91bf">
 
 
-1. Set up your Azure Virtual Machine
+1. Set up your Azure Virtual Machine (Windows 10)
 
 Azure is a cloud computing platform and service offered by Microsoft. It provides a wide range of cloud services that enable organizations to build, deploy, and manage applications and services through Microsoft-managed data centers.
 
@@ -59,10 +58,9 @@ The primary purpose of SIEM is to provide organizations with a centralized platf
  - Open Microsoft Remote Desktop on you local computer
  - Enter the Public IP Address of VM1
  - Enter log in credentials created in Azure when setting up VM1
- - Virtual Desktop should appear up lof in.
+ - Virtual Desktop should appear upon log in.
    
 
-   
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 2. Install Azure Sentinel
