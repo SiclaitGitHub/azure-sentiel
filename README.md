@@ -57,7 +57,17 @@ Create a new Azure resource group, virtual network, subnet and virtual machine r
 - Then Click "Create New"
 - Remove the default "Inbound Rule" then select "Add Inbound Rule"
 - Type "*" for the "Destination Port" option.
-- Select "Any" for the "Protocol" 
+- Select "Any" for the "Protocol"
+
+
+<img width="856" alt="Screen Shot 2023-07-19 at 6 51 27 PM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/c4f13910-adcd-49ec-9a01-4de67073efe0">
+
+3. Create Log Alanytics Workspace (LAW) in Azure
+
+- Type "Log Alanytics Workspace" in the search bar of the Azure window
+- Make sure the LAW is set to the same 'Resource Group" and "Region" as VM1
+- Click "Review + Create"
+- Click Create
 
 
 <img width="602" alt="Screen Shot 2023-07-15 at 11 22 30 AM" src="https://github.com/SiclaitGitHub/azure-sentiel/assets/139138443/63021c1d-022d-4f60-972d-854648a0586e">
